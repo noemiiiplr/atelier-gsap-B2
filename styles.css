@@ -1,4 +1,63 @@
-#demo{
-    color: blue;
+header{
+    color: rgb(255, 255, 255);
+    background-color: rgb(34, 60, 118);
+    height: 50px;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    }
 
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgb(34, 60, 118);
+    margin: 0;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    justify-content: center;
+    align-items: center;
+}
+
+.noemi{
+    border-radius: 10%;  
+   width: 20vw;
+}
+
+.grid{
+    display: flex;
+    flex-direction: row;
+}
+
+.GridItem{
+  
+ display: flex;
+flex-direction: column;
+
+
+}
+
+#section1{
+    background-color: rgb(237, 237, 237);
+    gap: 20px;
+}
+
+
+#section3{
+    background-color: rgb(237, 237, 237);
+    
+}
+
+p{
+    flex-direction: column;
+    justify-content: center;
 }
