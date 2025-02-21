@@ -50,6 +50,21 @@ gsap.to(".imageApropos",{
 
 /* Section 4 --------------------------------------------------------------------------- */
 
+gsap.from('.imagePortfolio',{
+    scrollTrigger: {
+        trigger: '#section4',
+        start: 'top 60%' ,
+        end: 'bottom 100%',
+        scrub: 1,
+        markers: true,
+        id: "section4",
+        toggleActions: 'play none reverse reset',
+    },
+
+    rotation : 60,
+    y:200,
+    stagger: 0.3,
+})
 
 
 

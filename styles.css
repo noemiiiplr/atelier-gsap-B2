@@ -142,9 +142,14 @@ text-align: left;
         /* Image --------*/ 
 
 .imgCompetence{
-width: 5vw;
+    width: 5vw;
+    transition: 1s;
 }
 
+.imgCompetence:hover{
+    transform: scale(1.5);
+
+}
       /* Texte --------*/ 
 
 .texteCompétence {
@@ -154,7 +159,7 @@ width: 5vw;
     }
 
 
-/* SECTION 4 --------*/ 
+/* SECTION 4 ------------------------------------------------ */ 
 
 #section4{
     background-color: rgb(255, 255, 255);
@@ -162,6 +167,8 @@ width: 5vw;
     flex-direction: center;
     align-items: center;
     justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 100px;
 }
 
 .photographie {
@@ -219,8 +226,7 @@ margin-bottom: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 170px;
-    margin-top: -150px;
+    padding: 150px;
     justify-content: center;
 }
 
@@ -371,6 +377,7 @@ body{
 
 #section4{
     justify-content: center;
+    margin-bottom: -50px;
 }
 
 .photographie {
@@ -397,9 +404,9 @@ body{
 /* SECTION 5 RESPONSIVE -------------------------------------------*/ 
 
 #section5{
-    margin-top: -138.5px;
-    padding: 150px;
+    padding: 65px;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 /* Texte ---------------*/ 
@@ -419,7 +426,5 @@ img{
     width: 75vw;
 }
 }
-
-
 
 
