@@ -13,10 +13,7 @@
     z-index: 3;
     }
 
-
-
   /* BODY --------*/ 
-
 
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -25,7 +22,6 @@ body{
     margin: 0;
     text-align: center;
     z-index: 2;
-
 }
 
 h1{
@@ -38,32 +34,33 @@ h2{
     align-items: center;
 }
 
-/* SECTION 1 --------*/ 
+/* SECTION 1 ------------------------------------------------------------------------------*/ 
 
 #section1{
     background-color: rgb(237, 237, 237);
     display: flex;
     flex-direction: center;
     justify-content: center;
-    
-
+    z-index: 0;
 }
+
+/* Texte ---------------*/ 
 
 .présentation{
-
-padding: 100px;
-display: flex;
-flex-direction: column;
-align-items: center;
-
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+/* Image ---------------*/ 
+
 
 .imagePresentation{
-display: flex;
-justify-content: center;
-
+    display: flex;
+    justify-content: center;
+    z-index: 0;
 }
-
 
 .noemi{
     cursor: url(assets/img/yellow-heart.png), auto;
@@ -79,25 +76,23 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-   
-
 }
+
+/* Texte ---------------*/ 
+
 .texteApropos{
 text-align: left;
 }
 
-
 .aPropos{
-
     display: flex;
     align-items: center;
     width: 80vw;
     padding: 100px;
     gap: 90px;
-
-
 }
+
+/* Image ---------------*/ 
 
 .imageApropos{
     border-radius: 2%;
@@ -107,7 +102,6 @@ text-align: left;
 /* SECTION 3 --------*/ 
 
 #section3{
-
     background-color: rgb(255, 251, 185);
     padding: 70px;
     display: flex;
@@ -117,7 +111,6 @@ text-align: left;
         /* COMPETENCES --------*/ 
 
 .divCompétence{
-
    display: flex;
    justify-content: center;
    align-items: center;
@@ -127,7 +120,6 @@ text-align: left;
         /* COMPETENCES DU HAUT --------*/ 
 
 .competence1{
-
     display: flex;
     flex-direction: row;
     padding: 20px;
@@ -139,24 +131,21 @@ text-align: left;
 
 
 .competence2{
-
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 20px;
     gap: 60px;
-
-
 }
 
-        /* IMAGES COMPETENCES --------*/ 
+        /* Image --------*/ 
 
 .imgCompetence{
 width: 5vw;
 }
 
-      /* TEXTE COMPETENCES --------*/ 
+      /* Texte --------*/ 
 
 .texteCompétence {
        padding: 25px;
@@ -164,8 +153,8 @@ width: 5vw;
        margin-bottom: -27.5px;
     }
 
-/* SECTION 4 --------*/ 
 
+/* SECTION 4 --------*/ 
 
 #section4{
     background-color: rgb(255, 255, 255);
@@ -173,10 +162,7 @@ width: 5vw;
     flex-direction: center;
     align-items: center;
     justify-content: center;
-
-
 }
-
 
 .photographie {
 	padding: 50px;
@@ -186,12 +172,13 @@ width: 5vw;
     margin-top: 40px;
 }
 
+/* Texte ---------------*/ 
+
 .titrePortfolio{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: center;
-
 }
 
 .textePortfolio{
@@ -201,14 +188,9 @@ justify-content: center;
 flex-direction: column;
 align-items: center;
 margin-bottom: 30px;
-
 }
 
-
-.photographie{
-padding: 50px;
-}
-
+/* Image ---------------*/ 
 
 .imagePortfolio{
     width: 300px;
@@ -221,28 +203,16 @@ padding: 50px;
     align-items: center;
 }
 
-
 .imagePortfolio2{
     display: flex;
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    
+
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /* SECTION 5 --------*/ 
-
 
 #section5{
     background-color: rgb(255, 255, 192);
@@ -252,7 +222,6 @@ padding: 50px;
     padding: 170px;
     margin-top: -150px;
     justify-content: center;
-
 }
 
 .divBrandboard{
@@ -262,8 +231,7 @@ flex-direction: column;
 align-items: center;
 }
 
-
-
+/* Texte ---------------*/ 
 
 .texteBrandboard{
     width: 50vw;
@@ -272,52 +240,50 @@ align-items: center;
     align-items: center;
 }
 
-.imageBrandboard{
+/* Image ---------------*/ 
 
+.imageBrandboard{
     display: flex;
     justify-content: center;
     flex-direction: row;
     align-items: center;
-   
-   
-
 }
 
+/* GÉNÉRAL ----------------------------------------------------------------*/ 
 
 img {
     border-radius: 2%;
     width: 20vw;
     padding: 10px;
     display: flex;
-justify-content: center;
+    justify-content: center;
+}
 
+p{
+    flex-direction: column;
 }
 
 
-p{
-   
-    flex-direction: column;
-
-    }
-
-
-
-
-
-
-/* RESPONSIVE ----------------------------------------------------------------*/ 
-
+/* RESPONSIVE ------------------------------------------------------------------------------------------------------------------*/ 
 
 @media(max-width: 800px){
 
-.header{
-width: 100vw;
-  }
 
+/* HEADER RESPONSIVE -------------------------------------------*/ 
+
+.header{
+    width: 100vw;
+}
+
+/* BODY RESPONSIVE -------------------------------------------*/ 
 
 body{
     font-size: 12px;
 }
+
+
+/* SECTION 1 RESPONSIVE -------------------------------------------*/ 
+
 #section1{
     justify-content: center;
 }
@@ -327,16 +293,24 @@ body{
     margin-top: 45px;
     margin-bottom: 15px;
 }
+
+/* Image ---------------*/ 
+
 .noemi{
     width: 36vw;
 }
+
+/* Texte ---------------*/ 
 
 .textePrésentation{
     width: 250px;
 }
 
+/* SECTION 2 RESPONSIVE -------------------------------------------*/ 
+
 #section2{  justify-content: center;
 }
+
 .aPropos {
 	display: flex;
     flex-direction: column;
@@ -345,24 +319,38 @@ body{
     width: 250px;
     padding: 48px;
     gap: 40px;
-    }
-
-
-
-
-    .imageApropos{
-    width: 250px;
-
 }
+/* Texte ---------------*/ 
 
 .texteApropos{
     margin-top: -25px;
 }
 
+/* Image ---------------*/ 
+
+.imageApropos{
+    width: 250px;
+}
+
+
+/* SECTION 3 RESPONSIVE -------------------------------------------*/ 
+
 #section3{
     padding: 50px;
     justify-content: center;
 }
+
+.divCompétence{
+    padding: 0vw;
+}
+
+/* Texte ---------------*/ 
+
+.texteCompétence{
+    width: 280px;
+}
+
+/* Image ---------------*/ 
 
 .competence1{
     gap: 30px;
@@ -372,25 +360,24 @@ body{
     gap: 30px;
 }
 
-.texteCompétence{
-    width: 280px;
-}
-
 .imgCompetence{
-
     width: 20vw;
     padding: 0vw;
-    
-}
-
-.divCompétence{
-    padding: 0vw;
 
 }
+
+
+/* SECTION 4 RESPONSIVE -------------------------------------------*/ 
 
 #section4{
     justify-content: center;
 }
+
+.photographie {
+	padding: 20px;
+}
+
+/* Image ---------------*/ 
 
 .imagePortfolio1{
     flex-direction: column;
@@ -400,17 +387,14 @@ body{
     flex-direction: column;
 }
 
+/* Texte ---------------*/ 
+
 .textePortfolio{
     width: 73vw;
-
 }
 
 
-
-.photographie {
-	padding: 20px;
-}
-
+/* SECTION 5 RESPONSIVE -------------------------------------------*/ 
 
 #section5{
     margin-top: -138.5px;
@@ -418,29 +402,22 @@ body{
     justify-content: center;
 }
 
+/* Texte ---------------*/ 
+
 .texteBrandboard {
 	width: 73vw;
 }
 
+/* Image ---------------*/ 
 
 .imageBrandboard {
 	flex-direction: column;
 }
 
-
-
-
 img{
     padding: -12px;
     width: 75vw;
 }
-
-
-
-
-
-
-
 }
 
 

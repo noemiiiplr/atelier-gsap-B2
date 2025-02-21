@@ -24,13 +24,7 @@ Draggable.create(".noemi",{
     }
 })
 
-// GSAP Animation - Titre
-gsap.to(".title",{
-    rotation : 360,
-    duration : 2,
-    
 
-})
 
 
 /* Section 2 --------------------------------------------------------------------------- */
